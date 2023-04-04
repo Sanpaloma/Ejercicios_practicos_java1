@@ -18,19 +18,17 @@ public class ej5_guia3 {
     
         System.out.println("Establezca el valor limite");
         int limite = leer.nextInt();
+        int suma = 0;
         
-        
-        for (int i = 0; i <= limite; i++ ){
+        while ( suma <= limite ){
         System.out.println("Ingrese un valor a la suma");
         int n = leer.nextInt();
         
-        i = i + n;
-            
-        
+        suma = suma + n;
         
         }
     
-        System.out.println("Ha superado el limite establecido");
+        System.out.println("Ha superado el limite establecido "+ suma);
     }
     
     

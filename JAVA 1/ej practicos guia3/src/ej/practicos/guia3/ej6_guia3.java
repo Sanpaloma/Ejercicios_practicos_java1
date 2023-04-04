@@ -28,7 +28,7 @@ public class ej6_guia3 {
         System.out.println("3. Multiplicar");
         System.out.println("4. Dividir");
         System.out.println("5. Salir");
-        System.out.println("EElija una opcion:");
+        System.out.println("Elija una opcion:");
         
         int op = leer.nextInt();
         
@@ -51,11 +51,16 @@ public class ej6_guia3 {
                 System.out.println("La division de los numeros ingresados es: " + res2 );
                 break;
             case 5:
+                System.out.println("Desea salir??");
+                String opc = leer.nextLine();
+                if(opc.equals("s")|| opc.equals("S")){
                 System.out.println("Saliendo...");
-                break;
+                }
+                }
+                
             
             
         }
     
     }
-}
+
